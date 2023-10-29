@@ -1,34 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Nyay Saarthi -Team DelhiBots
 
-First, run the development server:
+The inspiration behind building this platform stemmed from a deep-seated belief in the power of democratizing technology. Witnessing the transformative potential of artificial intelligence, I was driven by the desire to make this cutting-edge technology accessible to everyone, irrespective of their technical background.
+This App help anyone to build chatbot on top of any data and these chatbots later used as a consultants for information gathering by doctors if they want to heard by the bot built by some famous doctor, similary for engineers or even for uneducated people who don't know read and write but they can talk and listen.
+yes this functionality is possible because of google text to speech and speech functions.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Screenshots
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![Screenshot 2023-10-29 144110](https://github.com/google/timesketch/assets/42493387/356701fe-cdca-41ed-943d-065337a84ec6)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![Screenshot 2023-10-29 144033](https://github.com/google/timesketch/assets/42493387/7ed35c25-d6a4-4358-989c-d6896e1f4a79)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![Screenshot 2023-10-29 144334](https://github.com/google/timesketch/assets/42493387/5fcf68ff-6794-422c-8df3-e7705f7717d4)
 
-## Learn More
+![Screenshot 2023-10-29 144258](https://github.com/google/timesketch/assets/42493387/dd850a7d-8f24-4e73-87e5-227f639277f8)
+## Environment Variables
 
-To learn more about Next.js, take a look at the following resources:
+To run this project, you will need to add the following environment variables to your .env file
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+`DATABASE_URL`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+`NEXTAUTH_SECRET`
 
-## Deploy on Vercel
+`NEXTAUTH_URL`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+`GOOGLE_CLIENT_ID`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+`GOOGLE_CLIENT_SECRET`
+
+`PINECONE_ENVIROMENT`
+`PINECONE_API_KEY`
+
+`OPENAI_API_KEY`
+
+## Features
+
+- Building Bots on Custom Data
+- Use API to integrate in Other Apps
+- Talk with Chatbot with Human like Flow
+- Get consultancy with Real Bots with honest Motive
+
+
+
+## Tech Stack
+
+**Client:** React, Nextjs, Component and UI libraries
+
+**Server:** Vertex AI embeddings, Open AI Chat Completion Model,
+Mongodb, Arweave, AWS EC2, Fast API.
+
