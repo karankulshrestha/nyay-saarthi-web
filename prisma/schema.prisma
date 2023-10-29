@@ -1,0 +1,38 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+  relationMode = "prisma"
+}
+
+
+model credentials {
+  id String @id @default(auto()) @map("_id") @db.ObjectId
+  email String @unique 
+  password String
+  createdAt DateTime @default(now())
+}
+
+
+model modelDetails {
+  id String @id @default(auto()) @map("_id") @db.ObjectId
+  email String 
+  fileURI String
+  namespace String
+  name String
+  description String
+  icon String
+  tags String[]
+  createdAt DateTime @default(now())
+}
+
+model arweave {
+  id String @id @default(auto()) @map("_id") @db.ObjectId
+  userId String
+  vaultId String
+  stackId String
+  fileURI String[]
+}
