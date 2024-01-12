@@ -1,7 +1,7 @@
 
 # Nyay Saarthi -Team DelhiBots
 
-"Nyay Saarthi" is an innovative legal assistance app designed for small businesses and individuals in India. The app simplifies legal processes by leveraging Generative AI and Large Language Models to read and generate legal documents using voice commands. It incorporates Vector Embedding Databases and Google Speech API for multi-language interaction. The app's AI Bot understands legal documents in 12+ Indian languages, provides real-time voice assistance through OCR scanning, and predicts outcomes based on historical data stored in a custom database. With nearly 99% accuracy, Nyay Saarthi aims to make legal support accessible to those without easy access to lawyers.
+"Nyay Saarthi" is an innovative legal assistance app designed for small businesses and individuals in India. The app simplifies legal processes by leveraging Generative AI and Large Language Models for building bot on top of legal documents and cases. It incorporates Vector Embedding Databases and gpt-3.5-turbo model for interactions. The app's AI Bot understands legal documents in english language Nyay Saarthi aims to make legal support accessible to those without easy access to lawyers.
 
 ## Demo
 
