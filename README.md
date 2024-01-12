@@ -1,9 +1,7 @@
 
 # Nyay Saarthi -Team DelhiBots
 
-The inspiration behind building this platform stemmed from a deep-seated belief in the power of democratizing technology. Witnessing the transformative potential of artificial intelligence, I was driven by the desire to make this cutting-edge technology accessible to everyone, irrespective of their technical background.
-This App help anyone to build chatbot on top of any data and these chatbots later used as a consultants for information gathering by doctors if they want to heard by the bot built by some famous doctor, similary for engineers or even for uneducated people who don't know read and write but they can talk and listen.
-yes this functionality is possible because of google text to speech and speech functions.
+"Nyay Saarthi" is an innovative legal assistance app designed for small businesses and individuals in India. The app simplifies legal processes by leveraging Generative AI and Large Language Models to read and generate legal documents using voice commands. It incorporates Vector Embedding Databases and Google Speech API for multi-language interaction. The app's AI Bot understands legal documents in 12+ Indian languages, provides real-time voice assistance through OCR scanning, and predicts outcomes based on historical data stored in a custom database. With nearly 99% accuracy, Nyay Saarthi aims to make legal support accessible to those without easy access to lawyers.
 
 ## Demo
 
